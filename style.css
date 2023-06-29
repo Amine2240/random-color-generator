@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(239, 239, 239);
+    transition: all ease 0.2s;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: cursive;
+    margin: 20px;
+}
+section{
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    gap: 7px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr)) ;  
+}
+.color{
+    border-radius: 10px;
+    background-color: blue;
+    color: rgb(229, 229, 229);
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+    box-shadow: 0px 5px 15px rgb(122, 121, 121);
+    font-family: cursive;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px rgb(64, 64, 64);
+    cursor: pointer;
+}
+
